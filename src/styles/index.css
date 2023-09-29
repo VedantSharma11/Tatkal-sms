@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@300&display=swap');
+:root {
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.5;
+  --toastify-color-dark: #3C3C3C;
+
+  color-scheme:  dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+body{
+  margin : auto ;
+  padding: 0;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+.apple{
+  border-radius: 10px;
+}
+
+.Toastify__toast-container{
+  border-radius: 10px !important;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+.blur{
+  -webkit-filter: blur(15px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(5px);
+  
+}
+
+
+
+
+.mobile-menu-button {
+  display: block; 
+}
+
+
+.desktop-menu {
+  display: none; 
+}
+
+
+@media (min-width: 768px) {
+  .mobile-menu-button {
+    display: none; 
+  }
+
+  .desktop-menu {
+    display: block; 
+  }
+}
+
+
+.bm-menu a {
+  display: block;
+  margin: 10px 0;
+  text-align: center; /* Center align the text */
+}
+
+
+.order-link{
+   text-decoration: none;
+   cursor: pointer;
+   color: white;
+}
+
+.order-link:hover{
+  transform: scale(1.1);
+}
